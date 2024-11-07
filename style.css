@@ -1,0 +1,36 @@
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+body {
+  max-width: 1440px;
+}
+
+header p {
+  font-size: 18px;
+  padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+  .sponsors img {
+    width: 60px;
+  }
+}
+
+@media (width > 768px) {
+  header {
+    margin: 0 180px;
+  }
+
+  header p {
+    padding-left: 0;
+    padding-right: 220px;
+  }
+  header h1 {
+    padding-right: 180px;
+  }
+  .gun {
+    box-shadow: 2px 2px 5px rgb(113, 113, 113);
+  }
+}
